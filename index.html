@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | Luis</title>
+  <meta name="description" content="Portafolio de evidencias de proyectos de desarrollo de software." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#inicio" aria-label="Inicio">Luis • Portafolio</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- Hero / Presentación -->
+    <section class="hero container">
+      <div class="hero-media">
+        <img src="img/perfil.jpg" alt="Foto de perfil de Luis" class="avatar" />
+      </div>
+      <div class="hero-copy">
+        <h1>Hola, soy <span>Luis</span></h1>
+        <p class="lead">
+          Desarrollador en formación con enfoque en aplicaciones web y móviles.
+          Me apasiona crear soluciones que aporten valor real, con código limpio y
+          buenas prácticas de desarrollo.
+        </p>
+        <div class="hero-tags" aria-label="Tecnologías destacadas">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Ionic</span><span>Angular</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formación Académica -->
+    <section id="formacion" class="container section">
+      <h2>Formación académica</h2>
+      <div class="timeline">
+        <article class="card edu">
+          <h3>Ingeniería en Desarrollo y Gestión de Software (en curso)</h3>
+          <p class="meta">Universidad Tecnológica del Centro de Veracruz • 10° cuatrimestre</p>
+          <p>Enfoque en desarrollo multiplataforma, metodologías ágiles, arquitectura de software y bases de datos.</p>
+        </article>
+        <article class="card edu">
+          <h3>Técnico Superior Universitario en TI – Área Desarrollo Multiplataforma</h3>
+          <p class="meta">Universidad Tecnológica del Centro de Veracruz</p>
+          <p>Fundamentos de programación, patrones de diseño, consumo de APIs y despliegue básico.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="container section">
+      <h2>Proyectos</h2>
+
+      <!-- EMALI -->
+      <article class="project card">
+        <div class="project-media">
+          <img src="img/emali.png" alt="Vista previa del proyecto EMALI" />
+        </div>
+        <div class="project-body">
+          <h3>EMALI</h3>
+          <p class="project-desc">
+            <strong>Descripción:</strong> Espacio para detallar el objetivo del proyecto EMALI,
+            problema que resuelve, rol que desempeñaste y resultados. Incluye tecnologías usadas,
+            retos y aprendizajes clave.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tecnologías:</strong> HTML, CSS, JS (ajústalo)</li>
+            <li><strong>Rol:</strong> Frontend / Backend / Full-stack</li>
+            <li><strong>Estado:</strong> En desarrollo / Finalizado</li>
+          </ul>
+          <!-- Enlaces opcionales -->
+          <!-- <div class="project-actions">
+            <a class="btn" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn ghost" href="#" target="_blank" rel="noopener">Repositorio</a>
+          </div> -->
+        </div>
+      </article>
+
+      <!-- CRISTAL -->
+      <article class="project card">
+        <div class="project-media">
+          <img src="img/cristal.png" alt="Vista previa del proyecto CRISTAL" />
+        </div>
+        <div class="project-body">
+          <h3>CRISTAL</h3>
+          <p class="project-desc">
+            <strong>Descripción:</strong> Explica el propósito de CRISTAL, alcance, usuarios
+            objetivo y el impacto del proyecto. Agrega evidencias como capturas o KPIs.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tecnologías:</strong> Ionic, Angular, Firebase (ejemplo)</li>
+            <li><strong>Rol:</strong> Líder técnico / Desarrollador</li>
+            <li><strong>Estado:</strong> En desarrollo / Finalizado</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- GESTOR DE PEDIDOS TENKO -->
+      <article class="project card">
+        <div class="project-media">
+          <img src="img/tenko.png" alt="Vista previa del proyecto Gestor de Pedidos Tenko" />
+        </div>
+        <div class="project-body">
+          <h3>Gestor de Pedidos TENKO</h3>
+          <p class="project-desc">
+            <strong>Descripción:</strong> Sistema para gestionar pedidos, rutas o inventarios (ajusta).
+            Describe módulos clave, arquitectura (si aplica) y resultados medibles.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Tecnologías:</strong> Laravel, MySQL, Bootstrap (ejemplo)</li>
+            <li><strong>Rol:</strong> Full-stack</li>
+            <li><strong>Estado:</strong> En desarrollo / Finalizado</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- Contacto sencillo -->
+    <section id="contacto" class="container section">
+      <h2>Contacto</h2>
+      <div class="contact">
+        <a href="mailto:20213l001033@utcv.edu.mx" class="btn">Escríbeme</a>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/luis-moises-7407b6335" target="_blank" rel="noopener" aria-label="LinkedIn">
+            LinkedIn
+          </a>
+          <a href="https://github.com/LuisMoises33" target="_blank" rel="noopener" aria-label="GitHub">
+            GitHub
+          </a>
+        </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Luis — Portafolio de evidencias</p>
+    </div>
+  </footer>
+
+  <script>
+    // Año dinámico en el footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Toggle del menú móvil (sin librerías)
+    const btn = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      links.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
